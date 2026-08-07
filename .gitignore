@@ -1,0 +1,31 @@
+﻿# Env files
+.env
+backend/.env
+frontend/.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# DB
+*.db
+stock_advisor.db
+backend/stock_advisor.db
+
+# Test artifacts
+test-results/
+test-results.json
+playwright-report/
+playwright_150_test_cases_report.html
+
+# OS
+.DS_Store
+Thumbs.db
