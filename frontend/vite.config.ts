@@ -13,7 +13,8 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        // target: 'http://localhost:8000',
+        target: 'https://stock-advisor-1-e3fb.onrender.com',
         changeOrigin: true,
       },
     },
