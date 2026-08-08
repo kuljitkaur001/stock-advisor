@@ -13,7 +13,7 @@ passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
 python-multipart==0.0.9
 yfinance==0.2.37
-pandas==2.2.1
+pandas==2.2.3
 numpy==1.26.4
 reportlab==4.1.0
 langgraph==0.0.30
