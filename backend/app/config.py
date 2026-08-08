@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = os.getenv(
         "DATABASE_URL", 
-        "postgresql+asyncpg://postgres:postgres@localhost:5432/stock_advisor_db"
+        "sqlite+aiosqlite:///./stock_advisor.db"
     )
     SQLITE_FALLBACK: str = "sqlite+aiosqlite:///./stock_advisor.db"
     
